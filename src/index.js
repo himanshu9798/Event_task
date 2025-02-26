@@ -11,9 +11,12 @@ import Substraction from './Task/Substraction';
 import MiniCal from './Task/MiniCal';
 import Details from './Task/Details';
 
+import Counter from './Task/Counter';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+
     <div style={{display:"flex",padding:"10px",margin:"20px",justifyContent:"space-between"}}>
   <Add></Add>
   <Multiply></Multiply>
@@ -23,6 +26,7 @@ root.render(
   <MiniCal></MiniCal>
   <br/>
   <Details></Details>
+  <Counter></Counter>
   </React.StrictMode>
 );
 
